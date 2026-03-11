@@ -2,7 +2,7 @@ const canvas = document.getElementById("heartCanvas");
 const ctx = canvas.getContext("2d");
 
 const img = new Image();
-img.src = "img/Image.jpg"; // Make sure path is correct
+img.src = "Image.jpg"; // Make sure path is correct
 img.onload = () => drawHeart();
 
 let t = 0;
@@ -86,4 +86,5 @@ function drawHeart() {
 
         ctx.restore();
     }
+
 }
